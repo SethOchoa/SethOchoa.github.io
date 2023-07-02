@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url('img/v748-toon-131.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+.detail h1 {
+  font-size: 50px;
+  color: white;
+}
+
+span {
+  color: goldenrod;
+}
+
+.detail p {
+  color: white;
+  line-height: 22px;
+}
+
+.detail a {
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.images {
+  width: 45%;
+  height: 80%;
+}
+
+.images img {
+  transform: translateX(-10%);
+}
+
+#about {
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#services {
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul.contact-me-list1 {
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+ul.contact-me-list1 a:hover {
+  color: blue;
+}
+
+ul.contact-me-list1 a {
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: bold;
+}

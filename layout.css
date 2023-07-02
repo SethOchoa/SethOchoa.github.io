@@ -1,0 +1,171 @@
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  left: 45%;
+}
+
+.second-half {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+.detail {
+  margin-left: 8%;
+  margin-top: 8%;
+}
+
+.detail h1 {
+  margin-bottom: 20px;
+}
+
+.detail a {
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.images {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.images img {
+  height: 100%;
+  position: absolute;
+  left: 24%;
+  bottom: 0;
+}
+
+.images:hover .MeNKids {
+  bottom: 40px;
+}
+
+@media screen and (max-width: 1050px) {
+  .kiddos {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .detail {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 6%;
+  }
+}
+section {
+  display: none;
+}
+
+section:target {
+  display: grid;
+}
+
+section:not(:target) {
+  display: none;
+}
+
+section:not(:target) p {
+  display: none;
+}
+
+.about-me-container {
+  display: grid;
+  grid-template-columns: repeat(3, 15%);
+  grid-template-rows: repeat(2, 15%);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p.about-me-greeting {
+  display: grid;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  text-align: justify;
+  max-width: 500px;
+}
+
+img.warden-and-i {
+  display: grid;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  width: 500px;
+  height: auto;
+}
+
+img.buggas-sliding {
+  display: grid;
+  grid-column-start: 1;
+  grid-row-start: 1;
+
+  width: 750px;
+  height: auto;
+}
+
+img.buddy-loading {
+  display: grid;
+  grid-column-start: 3;
+  grid-row-start: 1;
+  -ms-grid-row-align: center;
+  width: 500px;
+  height: auto;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: 500px, 500px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-me-container {
+  display: grid;
+  grid-template-columns: 500px, 500px, 500px;
+  grid-template-rows: 2;
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+img.qr-code {
+  display: grid;
+  grid-column-start: 2;
+  width: 250px;
+  height: auto;
+}
+
+ul.contact-me-list1 {
+  display: grid;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
