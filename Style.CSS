@@ -66,6 +66,7 @@ span {
 }
 
 ul.contact-me-list1 {
+  list-style-type: none;
   text-decoration: none;
   color: goldenrod;
   font-weight: bold;

@@ -152,8 +152,8 @@ img.buddy-loading {
   grid-template-columns: 500px, 500px, 500px;
   grid-template-rows: 2;
   position: absolute;
-  top: 50%;
-  left: 49%;
+  top: 60%;
+  left: 51%;
   transform: translate(-50%, -50%);
 }
 
@@ -166,6 +166,6 @@ img.qr-code {
 
 ul.contact-me-list1 {
   display: grid;
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-row-start: 2;
 }
