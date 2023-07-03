@@ -160,7 +160,7 @@ img.buddy-loading {
 img.qr-code {
   display: grid;
   grid-column-start: 2;
-  width: 250px;
+  width: 251px;
   height: auto;
 }
 
